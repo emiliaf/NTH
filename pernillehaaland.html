@@ -10,14 +10,6 @@
             --dark-gray: #222;
             --light-gray: #f4f6f8;
             --accent: #d4af37;
-            
-            /* EdFringe UI Palette Alignment Constants */
-            --edfringe-card-bg: #111827;
-            --edfringe-text-main: #f3f4f6;
-            --edfringe-text-muted: #9ca3af;
-            --edfringe-cyan: #06b6d4;
-            --edfringe-star: #eab308;
-            --edfringe-border: #1f2937;
         }
         body {
             font-family: Arial, sans-serif;
@@ -123,126 +115,6 @@
             font-weight: bold;
             font-size: 1.2rem;
         }
-
-        /* --- Exact EdFringe Ticket Listing Card Layout Mock Up Styling Rules --- */
-        .edfringe-reviews-section {
-            background-color: #0b0f19;
-            padding: 40px 20px;
-            margin-top: 60px;
-            border-radius: 12px;
-        }
-        .edfringe-reviews-section h2 {
-            color: #ffffff;
-            border-left-color: var(--edfringe-cyan);
-            margin-bottom: 25px;
-        }
-        .review-card_container__vH6yl {
-            background-color: var(--edfringe-card-bg);
-            border: 1px solid var(--edfringe-border);
-            border-radius: 10px;
-            padding: 24px;
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        }
-        .review-card_header__UkGHN {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            border-bottom: 1px solid var(--edfringe-border);
-            padding-bottom: 12px;
-            margin-bottom: 16px;
-        }
-        .review-card_titleContainer__GVW4J {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .review-card_quoteIcon__lWlp0 {
-            color: var(--edfringe-cyan);
-            display: flex;
-            align-items: center;
-        }
-        .review-card_title__M9gCY {
-            display: flex;
-            flex-direction: column;
-        }
-        .label_labelBold___cJup {
-            font-weight: 700;
-            color: var(--edfringe-text-main);
-            font-size: 1.15rem;
-            letter-spacing: -0.025em;
-        }
-        .label_labelGrey__Cxtqn {
-            color: var(--edfringe-text-muted);
-            font-size: 0.85rem;
-            margin-top: 2px;
-        }
-        .review-card_headerDate__3Qd5I .label_labelSmall__YNIe3 {
-            color: var(--edfringe-text-muted);
-            font-size: 0.85rem;
-            background-color: #1f2937;
-            padding: 4px 8px;
-            border-radius: 6px;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-        }
-        .review-card_contentContainer__QszVQ {
-            color: #e5e7eb;
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-        .review-card_contentContainer__QszVQ p {
-            margin: 0 0 12px 0;
-            white-space: pre-line;
-        }
-        .review-card_footer__Olh6m {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 12px;
-            padding-top: 12px;
-            border-top: 1px solid var(--edfringe-border);
-        }
-        .button_btnText__St9pr {
-            color: var(--edfringe-cyan);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            transition: color 0.2s ease;
-        }
-        .button_btnText__St9pr:hover {
-            color: #22d3ee;
-            text-decoration: underline;
-        }
-        .review-card_footerDate__h07aa {
-            display: none; /* Desktop positioning fallback mirror toggle layout hook */
-        }
-        .star-container {
-            color: var(--edfringe-star);
-            font-size: 1.1rem;
-            letter-spacing: 2px;
-            margin-top: 4px;
-        }
-        @media(max-width: 640px) {
-            .review-card_header__UkGHN {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .review-card_headerDate__3Qd5I {
-                display: none;
-            }
-            .review-card_footerDate__h07aa {
-                display: block;
-                color: var(--edfringe-text-muted);
-                font-size: 0.85rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -276,18 +148,22 @@
         <section>
             <h2>Critical Acclaim</h2>
             <div class="quotes-grid">
+                <!-- Quote 1 -->
                 <blockquote>
                     <p>"Roaringly funny... incredibly talented"</p>
                     <cite>★★★★★ Broadway Baby</cite>
                 </blockquote>
+                <!-- Quote 2 -->
                 <blockquote>
                     <p>"Haaland is hilarious"</p>
                     <cite>★★★★ Time Out</cite>
                 </blockquote>
+                <!-- Quote 3 -->
                 <blockquote>
                     <p>"Confident and consistently good"</p>
                     <cite>★★★★ One 4 Review</cite>
                 </blockquote>
+                <!-- Quote 4 -->
                 <blockquote>
                     <p>"Sheer ludicrous fun"</p>
                     <cite>— The List</cite>
@@ -301,3 +177,25 @@
             <ul>
                 <li><strong>Winner:</strong> Best Stand-Up Comedian – Reykjavík Fringe Festival</li>
                 <li><strong>Winner:</strong> Best Joke – The Times Edinburgh Fringe Awards</li>
+                <li><strong>Nominee:</strong> Best Comedian – RDK Norway</li>
+            </ul>
+        </section>
+
+        <!-- Assets Download -->
+        <section class="download-box">
+            <h2>Media Assets</h2>
+            <p>Access high-resolution promotional materials, web-ready shots, and print-ready TIFF files.</p>
+            <a href="https://drive.google.com/drive/folders/1fMjUZz_rPLvx2wfud6ms28U9-mEb5prk?usp=sharing" class="download-btn" target="_blank">View & Download Press Shots (Google Drive)</a>
+        </section>
+
+
+        <!-- Press Contact -->
+        <section class="contact-box">
+            <h2>Management & Press Inquiries</h2>
+            <p>For bookings, corporate events, and interview requests, please contact:</p>
+            <p><a href="mailto:hi@nordictalenthouse.com">hi@nordictalenthouse.com</a></p>
+        </section>
+    </div>
+
+</body>
+</html>
