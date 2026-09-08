@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pernille Haaland: Nordic Operations | EdFringe Reviews</title>
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card-bg: #111827;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --cyan: #06b6d4;
+            --star: #eab308;
+            --border: #1f2937;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg); color: var(--text-main); margin: 0; padding: 0; line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 32px; }
+        .back-link { color: var(--cyan); text-decoration: none; font-size: 0.9rem; }
+        h1 { font-size: 2.25rem; font-weight: 800; margin: 12px 0 8px 0; }
+        .show-meta { color: var(--text-muted); font-size: 1rem; text-transform: uppercase; font-weight: 600; }
+        .badge { background: rgba(6,182,212,0.1); color: var(--cyan); padding: 4px 12px; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; display: inline-block; margin-top: 12px; }
+        .card { background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+        .card-header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 16px; }
+        .header-meta { display: flex; flex-direction: column; }
+        .name { font-weight: 700; font-size: 1.15rem; color: var(--text-main); }
+        .type { color: var(--text-muted); font-size: 0.85rem; margin-top: 2px; }
+        .date { color: var(--text-muted); font-size: 0.85rem; background-color: #1f2937; padding: 4px 10px; border-radius: 6px; font-weight: 600; }
+        .content { font-size: 1rem; color: #e5e7eb; }
+        .stars { color: var(--star); font-size: 1.1rem; letter-spacing: 2px; margin-top: 4px; }
+        .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
+        .btn { color: var(--cyan); text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← Back to Press Kit</a>
+            <h1>Pernille Haaland: Nordic Operations</h1>
+            <div class="show-meta">Comedy / Stand-Up / Edinburgh Festival Fringe</div>
+            <div class="badge">25 Verified Reviews</div>
+        </header>
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <div class="card-header">
+                <div class="header-meta">
+                    <span class="name">one4review</span>
+                    <span class="type">(Professional critic)</span>
+                    <div class="stars">★★★★☆</div>
+                </div>
+                <span class="date">12 Aug 2026</span>
+            </div>
+            <div class="content">
+                <p>Haaland’s performance was confident, exuberant and full of energy. Her lovable, bubbly personality easily captures the audience’s attention and she has a knack of delivering a punchline that the audience don’t see coming.</p>
+            </div>
+            <div class="card-footer">
+                <a class="btn" href="https://one4review.co.uk/2026/08/pernille-haaland-nordic-operations-4-%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F/" target="_blank">Read full review →</a>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Maija</span><span class="type">(Audience member)</span></div><span class="date">1 Sep 2026</span></div>
+            <div class="content"><p>Really enjoyed Pernille’s show, laughed out loud multiple times! I will definitely go and see her again if she returns to Scotland :)</p></div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Jan Harald Fredheim</span><span class="type">(Audience member)</span></div><span class="date">28 Aug 2026</span></div>
+            <div class="content"><p>Pernille is a comedian I always have to catch at the Fringe. And again she is brilliant! Even the craziest rain that Edinburgh have ever seen won’t stop her from performing.</p></div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">David Thomson</span><span class="type">(Audience member)</span></div><span class="date">28 Aug 2026</span></div>
+            <div class="content"><p>The last time I saw Pernille perform was at a gig above a pub in Covent Garden pre-Covid. I bought a ticket at the last minute for this show at the fringe and it was a fantastic hour of standup comedy. She’s a very talented comedian and performs globally these days, if you want a great hour of standup then you can’t go wrong buying a ticket to see this show.</p></div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">William Clark</span><span class="type">(Audience member)</span></div><span class="date">26 Aug 2026</span></div>
+            <div class="content"><p>We loved the show! As a fellow Scandinavian, I encourage other Nordics to go. Pernille engages well with her audience, she is intelligent, perceptive, sharp, and so very funny. She covered Swedes, Danes and with perfection Norwegians and Americans. Her show is International and will appeal to everyone.</p></div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Jane B</span><span class="type">(Audience member)</span></div><span class="date">25 Aug 2026</span></div>
+            <div class="content"><p>Good comedy focused on the Nordic countries. I enjoyed the show.</p></div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Susanne Beard</span><span class="type">(Audience member)</span></div><span class="date">24 Aug 2026</span></div>
+            <div class="content"><p>great show,. Norway may be the land of long cold winters but Pernille is pure sunshine.</p></div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Luna De Ferrari</span><span class="type">(Audience member)</span></div><span class="date">24 Aug 2026</span></div>
+            <div class="content"><p>Fantastic! Really good, flowing, perfectly balanced show. A gem.</p></div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Val</span><span class="type">(Audience member)</span></div><span class="date">21 Aug 2026</span></div>
+            <div class="content"><p>Great show. Husband worked in Norway for a couple of years and he really related to the Nordic humour - although the show would be great for anyone. She is perceptive, witty and delivers with style. Great audience rapport - highly recommend!</p></div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Steve L</span><span class="type">(Audience member)</span></div><span class="date">19 Aug 2026</span></div>
+            <div class="content"><p>Pernille ran a tight performance, established a great rapport with the audience and was witty and thoughtful and had great punchlines. I know she is Norwegian, but doing the different Scandi accents in English was classic, as was her granny sucking on the fag. I hope she marries the Finnish PM, well, if he has land lucky fella</p></div>
+        </div>
+
+        <!-- CARD 11 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Anonymous</span><span class="type">(Audience member)</span></div><span class="date">19 Aug 2026</span></div>
+            <div class="content"><p>Really great 😊</p></div>
+        </div>
+
+        <!-- CARD 12 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Clare Kennelly</span><span class="type">(Audience member)</span></div><span class="date">19 Aug 2026</span></div>
+            <div class="content"><p>Great show. Well delivered. First time ever seeing a Norwegian comic. Really funny. Highly recommend!</p></div>
+        </div>
+
+        <!-- CARD 13 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Dylan</span><span class="type">(Audience member)</span></div><span class="date">16 Aug 2026</span></div>
+            <div class="content"><p>Pernille's set is hilarious, delivering punchline after punchline (so much so, I'd basically seen it twice!). Especially funny and endearing for how much Pernille relates to Scandinavian (and wider European) culture. If you're a fan of her work, it's one not to miss!</p></div>
+        </div>
+        <!-- CARD 14 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">L Doc</span><span class="type">(Audience member)</span></div><span class="date">16 Aug 2026</span></div>
+            <div class="content"><p>Loved Pernille’s humour. She engaged warmly with the audience with her clever observational style that held us throughout her set. I’d absolutely recommend booking Nordic Operations.</p></div>
+        </div>
+
+        <!-- CARD 15 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Lin H</span><span class="type">(Audience member)</span></div><span class="date">15 Aug 2026</span></div>
+            <div class="content"><p>We loved Pernille so much we saw her twice at the Fringe. Sophisticated, funny and engaging. Will definitely be looking out for her again.</p></div>
+        </div>
+
+        <!-- CARD 16 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Agnes Joyce Wells</span><span class="type">(Audience member)</span></div><span class="date">15 Aug 2026</span></div>
+            <div class="content"><p>A sharp fast paced set by Pernille. She kept the audience amused with her comparisons between the different Nordic cultures. The new venue at The Guilded Saloon certainly fits the bill as a comedy destination. Very atmospheric.</p></div>
+        </div>
+
+        <!-- CARD 17 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Oliver</span><span class="type">(Audience member)</span></div><span class="date">13 Aug 2026</span></div>
+            <div class="content"><p>Absolutely brilliant. I found Pernille Haaland charismatic and charming. With impeccable timing and effortless professionalism, she creates a wonderfully relaxed atmosphere, even with a small midweek Fringe audience. Hilarious throughout, whether you’re familiar with Scandinavia or not. Pernille weaves together a range of themes and observations into a delightfully discursive narrative that feels spontaneous yet carefully crafted. Standup at its finest, in my view.</p></div>
+        </div>
+
+        <!-- CARD 18 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Rininta</span><span class="type">(Audience member)</span></div><span class="date">12 Aug 2026</span></div>
+            <div class="content"><p>The “bipolar” between Norway vs USA, officially a fan 🙌</p></div>
+        </div>
+
+        <!-- CARD 19 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Anonymous</span><span class="type">(Audience member)</span></div><span class="date">12 Aug 2026</span></div>
+            <div class="content"><p>Enjoyed show! Definitely worth seeing!</p></div>
+        </div>
+
+        <!-- CARD 20 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Ileana Hannema</span><span class="type">(Audience member)</span></div><span class="date">11 Aug 2026</span></div>
+            <div class="content"><p>Whether you know nothing about or can relate to Scandinavian culture this show is not to be missed. Pernille Haaland manages to thread together history, social issues and politics in this sharp and humorous hour long show.</p></div>
+        </div>
+
+        <!-- CARD 21 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Costas and Lisa</span><span class="type">(Audience member)</span></div><span class="date">10 Aug 2026</span></div>
+            <div class="content"><p>We really enjoyed Nordic Operations. Pernille has a great way of comparing life in Norway, Britain and America, and the stories about her American relative were a highlight. The show covers everything from Norwegian oil money and dating to feminism, NATO and thermal underwear. Fast, funny and well worth seeing.</p></div>
+        </div>
+
+        <!-- CARD 22 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Ani</span><span class="type">(Audience member)</span></div><span class="date">10 Aug 2026</span></div>
+            <div class="content"><p>Sharp, hysterical, clever comedy that makes you think long after you finish giggling but boy do you have a good time.</p></div>
+        </div>
+
+        <!-- CARD 23 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Steven</span><span class="type">(Audience member)</span></div><span class="date">8 Aug 2026</span></div>
+            <div class="content"><p>Fantastic show with timely topics, just super fun. must go!</p></div>
+        </div>
+
+        <!-- CARD 24 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Lisa Henderson</span><span class="type">(Audience member)</span></div><span class="date">8 Aug 2026</span></div>
+            <div class="content"><p>Enjoyed this easy to listen/watch show.</p></div>
+        </div>
+
+        <!-- CARD 25 -->
+        <div class="card">
+            <div class="card-header"><div class="header-meta"><span class="name">Emilia</span><span class="type">(Audience member)</span></div><span class="date">6 Aug 2026</span></div>
+            <div class="content"><p>Fantastic, charismatic, thoughtful, topical, super well delivered show. Had me chuckling to myself the next day.</p></div>
+        </div>
+
+    </div>
+</body>
+</html>
